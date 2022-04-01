@@ -1,6 +1,6 @@
 {
-    "name": "p7zip",
-    "version": "5.0.2",
+    "name": "p7zip-threetwo",
+    "version": "1.0.0",
     "description": "A node wrapper for 7z including latest version of 7za",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -22,9 +22,9 @@
         "url": "https://github.com/jbdemonte/node-p7zip.git"
     },
     "author": {
-        "name": "Jean-Baptiste DEMONTE",
-        "email": "jbdemonte@gmail.com",
-        "url": "https://jb.demonte.fr"
+        "name": "Rishi Ghan",
+        "email": "rishi.ghan@gmail.com",
+        "url": "https://rishighan.com"
     },
     "keywords": [
         "typescript",

@@ -1,7 +1,7 @@
 import { spawn } from 'child_process';
 import * as path from 'path';
 
-const bin = path.resolve(path.join(__dirname, '..', '..', 'bin', '7za'));
+const bin = process.env.7ZA_BINARY_PATH || path.resolve(path.join(__dirname, '..', '..', 'bin', '7za'));
 
 /**
  * Run 7za using arguments, arguments may be inline or in an array
